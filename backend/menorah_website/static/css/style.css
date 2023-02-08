@@ -1,0 +1,32 @@
+:root {
+    --body-bg-color: #000000;
+    --body-text-color: rgb(255, 255, 255);
+    --body-bg-image: url('img\svg\flags.png');
+    --body-font-family: 'Space Grotesk', sans-serif;
+  }
+  
+body {
+    /*background-color: var(--body-bg-color);*/
+    color: var(--body-text-color);
+    /*background-image: var(--body-bg-image);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: var(--body-font-family);
+
+  }
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+}
+.main-bg{
+    background-image: url('img/svg/uuundulate.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.svg-underline{
+  background-image: url('img\svg\llline.svg');
+}
